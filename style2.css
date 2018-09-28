@@ -1,0 +1,228 @@
+@import url(animate.css) screen;
+@import url(vegas.min.css) screen;
+@import url(bootstrap.css) screen;
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,600italic,700,800,400italic);
+ @font-face { font-family: chiller; src: url('../fonts/CHILLER.TTF'); } 
+ @font-face { font-family: white; src: url('../fonts/White.otf'); }
+
+*{margin: 0;padding: 0px;}
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    color: #656565;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+html {
+    /*overflow-x: hidden;
+    overflow-y: auto;*/
+}
+
+div.body {
+    height: 100%;
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    display: block;
+}
+.center {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    display: block;
+}
+.right {
+    float: right;
+    display: block;
+}
+.hidden {
+    overflow: hidden;
+    display: block;
+}
+.container{
+   /* background: #CC0000 */
+}
+
+
+canvas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 9
+}
+.wrapper img{
+    width:100%;
+}
+
+form{
+	    padding:10px 80px 20px 80px;
+	    color:#ddd!important;
+	}
+.forms input[type="text"], select, textarea{
+    outline: none;
+    font-size: 15px;
+    color: #ddd;
+    padding: 15px 40px 15px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+.forms input[type="email"]{
+    outline: none;
+    font-size: 15px;
+    color: #ddd;
+    padding: 15px 40px 15px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+.forms input[type="password"]{
+    outline: none;
+    font-size: 15px;
+    color: #ddd;
+    padding: 15px 40px 15px 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #DCCBCF;
+    
+    margin-bottom: 30px;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+input[type="submit"] {
+    background: #fff;
+    color: #000!important;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    padding: 9px 38px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+}
+
+#waves{
+display:none;
+}
+
+.log{
+	width:70px!important;
+}
+@media (min-width:700px){
+    #r3{
+     margin-top:-70px
+}
+
+#ct{
+    margin-top:-60px
+}
+.log{
+	width:150px!important;
+}
+#waves{display:block}
+#countdowntimer{
+margin-top:60px!important;
+}
+}
+
+/*******************
+ 2. HEADER SECTION
+****************** */
+.header-section{
+    position:  relative;
+    top: 0;
+    z-index: 99999;
+    padding: 0 !important;
+    display: table;
+    padding: 50px 0 65px;
+    min-height: 100%;
+    display: block;
+    background-size: cover;
+}
+    .header-section .row{
+        display: table;
+        margin: 0;
+    }
+    .counter-box{
+        text-align: center;
+        margin: 0 auto;
+        display: table-cell;
+    }
+    .counter-box h1{
+        font-size: 50px;
+        font-weight: 400;
+        font-family:white;
+        color: white;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    #countdowntimer{
+        display: block;
+        width: 100%;
+        overflow: hidden;
+    }
+.logoz{
+	    right:20px;
+	    top:95%;
+	    position:fixed;
+		cursor:pointer;
+	}
+.app{
+	    left:42%;
+	    top:2%;
+	    position:fixed;
+		cursor:pointer;
+	}
+	.back{
+	    display:none;
+	    left:20px;
+	    top:93%;
+	    position:fixed;
+	}
+	.row2{
+	    width:80%;
+	    height:43%;
+	    margin:auto;
+	}
+	.column{
+	 width:50%;   
+	}
+	

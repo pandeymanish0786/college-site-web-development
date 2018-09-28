@@ -1,0 +1,6 @@
+body { margin: 0; padding: 0; background: #ccc;}
+.container { width: 681px; height: 885px; display: block; margin: 0 auto; padding: 0;}
+#foreground { position: absolute; z-index: 999;}
+#canvas { position: relative; margin: 0 auto; }
+#background { display: none; }
+#credits { text-align: center; 
